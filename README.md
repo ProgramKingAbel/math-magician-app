@@ -43,7 +43,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Amazing Movies] <a name="about-project"></a>
+# 📖 [Maths- Magicians] <a name="about-project"></a>
 
 > **[Maths-Magicians]**  is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations and Read a random math-related quote.
 
@@ -66,8 +66,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> - [Live Demo Link]()
-> - [Introduction to Project]()
+> - [Live Demo Link - Yet to be released]
+> - [Introduction to Project -Yet to be released]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +137,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add mobile version]**
+- [ ] **[Add Live version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
