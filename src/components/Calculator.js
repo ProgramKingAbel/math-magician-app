@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Calculator = () => {
-  return (
-    <div>calculator</div>
-  )
-}
+const Calculator = () => (
+  <div>Calculator</div>
+);
 
-export default Calculator
+export default Calculator;
