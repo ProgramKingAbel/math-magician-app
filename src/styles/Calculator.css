@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.calc-container {
+  width: 30rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.all-btns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.all-btns .grid-item:nth-child(4n),
+.all-btns .grid-item:nth-child(19) {
+  background-color: hsl(27.21deg 90.15% 60.2%);
+}
+
+input[type="text"] {
+  padding: 1rem;
+  text-align: right;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  background-color: hsl(236deg 6.55% 55.1%);
+}
+
+input[type="text"]::placeholder {
+  color: white;
+}
+
+button {
+  padding: 1rem;
+  outline: none;
+  border: 0.5px solid hsl(236deg 6.55% 55.1%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
