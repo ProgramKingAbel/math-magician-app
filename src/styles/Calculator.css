@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .calc-container {
-  width: 30%;
+  width: 30rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
