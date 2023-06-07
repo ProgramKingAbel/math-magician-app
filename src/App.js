@@ -4,7 +4,7 @@ import Calculator from './components/Calculator';
 
 const App = () => (
   <div>
-    <p>App</p>
+    <h1>Welcome Math Magicians</h1>
     <Calculator />
   </div>
 );
