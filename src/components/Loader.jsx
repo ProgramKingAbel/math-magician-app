@@ -1,11 +1,12 @@
 import React from 'react';
 import loader from '../assets';
+import '../styles/Loader.css';
 
 const Loader = () => {
   return (
       <div className='loader'>
           <img src={loader} alt="loader" className='loader-img' />
-          <p>We are getting you a quote <br />
+          <p className='loader-tag'>We are getting you a quote <br />
               Please wait...</p>
     </div>
   )
