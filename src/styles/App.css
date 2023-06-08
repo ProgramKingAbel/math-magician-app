@@ -10,6 +10,14 @@ body {
   outline: none;
 }
 
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
