@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Loader from "./Loader";
 
 const displayQuote = () => {
     const [quote, setQuote] = useState(null);
@@ -34,7 +35,7 @@ const displayQuote = () => {
     }, [setQuote]);
 
     if (isLoading) {
-
+        <Loader />
     }
 
     if (error) {
