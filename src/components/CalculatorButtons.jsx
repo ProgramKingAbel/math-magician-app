@@ -1,19 +1,9 @@
 import React from 'react';
-import calculate from '../utils/calculate';
 
-const CalculatorButtons = () => {
-
-  const [calculatorData, setCalculatorData] = useState({
-    total: null,
-    next: null,
-    operation: null
-  });
-
-  const handleButtonClick = (buttonName) => {
-    const updatedData = calculate(calculatorData, buttonName);
-    setCalculatorData(updatedData);
+const CalculatorButtons = ({ handleClickedButton }) => {
+  const handleClick = (buttonName) => {
+    handleClickedButton(buttonName);
   }
-
   const buttons = [
     { id: 'ac', label: 'AC' },
     { id: 'plus-minus', label: '+/-' },
@@ -39,7 +29,7 @@ const CalculatorButtons = () => {
   return (
     <div className="all-btns">
       {buttons.map((button) => (
-        <button key={button.id} type="button" className={`grid-item ${button.class}`}>
+        <button key={button.id} type="button" className={`grid-item ${button.class}`} onClick={()=>handleClick(button.label)}>
           {button.label}
         </button>
       ))}
