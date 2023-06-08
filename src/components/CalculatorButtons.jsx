@@ -1,6 +1,19 @@
 import React from 'react';
+import calculate from '../utils/calculate';
 
 const CalculatorButtons = () => {
+
+  const [calculatorData, setCalculatorData] = useState({
+    total: null,
+    next: null,
+    operation: null
+  });
+
+  const handleButtonClick = (buttonName) => {
+    const updatedData = calculate(calculatorData, buttonName);
+    setCalculatorData(updatedData);
+  }
+
   const buttons = [
     { id: 'ac', label: 'AC' },
     { id: 'plus-minus', label: '+/-' },
