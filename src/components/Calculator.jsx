@@ -7,7 +7,7 @@ const Calculator = () => (
 
   <div className="calc-container">
     <CalculatorDisplay />
-    <CalculatorButtons />
+    <CalculatorButtons handleButtonClick={ handleButtonClick } />
   </div>
 );
 
