@@ -26,7 +26,7 @@ const displayQuote = () => {
                 console.error(error);
                 setError('Failed To Load Quote')
             } finally {
-                
+
                 setIsLoading(false);
             }
         };
@@ -38,7 +38,7 @@ const displayQuote = () => {
     }
 
     if (error) {
-        
+        return <div>{ error }</div>
     }
     
 
