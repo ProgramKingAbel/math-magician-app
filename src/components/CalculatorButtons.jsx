@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
+import propTypes from 'prop-types';
 
 const CalculatorButtons = ({ handleClickedButton }) => {
+  const [activeButton, setActiveButton] = useState(null);
   const handleClick = (buttonName) => {
+    setActiveButton(buttonName);
     handleClickedButton(buttonName);
-  }
+  };
+
   const buttons = [
     { id: 'ac', label: 'AC' },
     { id: 'plus-minus', label: '+/-' },
@@ -29,7 +33,13 @@ const CalculatorButtons = ({ handleClickedButton }) => {
   return (
     <div className="all-btns">
       {buttons.map((button) => (
-        <button key={button.id} type="button" className={`grid-item ${button.class}`} onClick={()=>handleClick(button.label)}>
+        <button
+          key={button.id}
+          type="button"
+          className={`grid-item ${button.class}`}
+          onClick={() => handleClick(button.label)}
+          style={activeButton === button.label ? { backgroundColor: 'blue' } : {}}
+        >
           {button.label}
         </button>
       ))}
@@ -37,4 +47,7 @@ const CalculatorButtons = ({ handleClickedButton }) => {
   );
 };
 
+CalculatorButtons.propTypes = {
+  handleClickedButton: propTypes.func.isRequired,
+};
 export default CalculatorButtons;
