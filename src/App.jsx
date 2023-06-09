@@ -1,13 +1,13 @@
 import React from 'react';
 import './styles/App.css';
-import { Calculator, displayQuote } from './components';
+import { Calculator, DisplayQuote } from './components';
 
 const App = () => (
   <div>
     <h1>Welcome Math Magicians</h1>
     <div className="wrapper">
       <Calculator />
-      <displayQuote />
+      <DisplayQuote />
     </div>
   </div>
 );
