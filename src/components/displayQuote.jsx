@@ -23,7 +23,6 @@ const DisplayQuote = () => {
         const json = await response.json();
         setQuote(json);
       } catch (error) {
-        // console.error(error);
         setError('Failed To Load Quote');
       } finally {
         setTimeout(() => {
