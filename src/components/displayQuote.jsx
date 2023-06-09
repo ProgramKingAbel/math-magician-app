@@ -10,9 +10,9 @@ const DisplayQuote = () => {
     const fetchQuote = async () => {
       try {
         const response = await fetch(
-          'https://api.api-ninjas.com/v1/quotes',
+          'https://api.api-ninjas.com/v1/quotes?category=funny',
           {
-            Headers: {
+            headers: {
               'X-Api-Key': 'RSEoeXesveyZYofHdotTdw==uMk2w3sAMDYOZZPA',
             },
           },
@@ -23,7 +23,7 @@ const DisplayQuote = () => {
         const json = await response.json();
         setQuote(json);
       } catch (error) {
-        console.error(error);
+        // console.error(error);
         setError('Failed To Load Quote');
       } finally {
         setTimeout(() => {
@@ -46,8 +46,8 @@ const DisplayQuote = () => {
     <div>
       {quote && quote.length > 0 ? (
         <>
-          <p>{quote[0].quote}</p>
-          <p>{quote[0].author}</p>
+          <p className="quote">{quote[0].quote}</p>
+          <p className="author">{quote[0].author}</p>
         </>
       ) : <div>No Quote Found</div>}
     </div>

@@ -13,9 +13,21 @@ body {
 .wrapper {
   width: 85%;
   margin: 0 auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
+  gap: 1rem;
+}
+
+.author, .quote {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.quote {
+  font-size: 1.5rem;
 }
 
 h1 {
