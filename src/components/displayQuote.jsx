@@ -9,12 +9,11 @@ const DisplayQuote = () => {
   useEffect(() => {
     const fetchQuote = async () => {
       try {
-        const API_KEY = 'https://api.api-ninjas.com/v1/quotes?category=funny';
         const response = await fetch(
-          API_KEY,
+          `${process.env.REACT_APP_MY_NINJA_URL}`,
           {
             headers: {
-              'X-Api-Key': 'RSEoeXesveyZYofHdotTdw==uMk2w3sAMDYOZZPA',
+              'X-Api-Key': `${process.env.REACT_APP_MY_NINJA_API_KEY}`,
             },
           },
         );
