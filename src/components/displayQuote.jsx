@@ -9,8 +9,9 @@ const DisplayQuote = () => {
   useEffect(() => {
     const fetchQuote = async () => {
       try {
+        const API_KEY = 'https://api.api-ninjas.com/v1/quotes?category=funny';
         const response = await fetch(
-          'https://api.api-ninjas.com/v1/quotes?category=funny',
+          API_KEY,
           {
             headers: {
               'X-Api-Key': 'RSEoeXesveyZYofHdotTdw==uMk2w3sAMDYOZZPA',
