@@ -35,7 +35,7 @@ const DisplayQuote = () => {
   }, [setQuote]);
 
   if (isLoading) {
-    <Loader />;
+    return <Loader />;
   }
 
   if (error) {
