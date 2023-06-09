@@ -26,7 +26,9 @@ const DisplayQuote = () => {
         console.error(error);
         setError('Failed To Load Quote');
       } finally {
-        setIsLoading(false);
+        setTimeout(() => {
+          setIsLoading(false);
+        }, 1000);
       }
     };
     fetchQuote();

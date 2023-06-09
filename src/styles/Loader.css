@@ -1,22 +1,23 @@
 .loader {
-    position: fixed;
-    inset: 0;
-    z-index: 10;
-    background: rgba(0, 0, 0, 0.7);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .loader-img {
-    width: 100px;
-    aspect-ratio: 1;
-    object-fit: contain;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
 }
+
 .loader-tag {
-    align-self: center;
-    margin-top: 20px;
-    font-weight: 700;
-    color: #fff;
+  align-self: center;
+  margin-top: 20px;
+  font-weight: 700;
+  color: #fff;
 }
