@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles/App.css';
 import { Routes, Route } from 'react-router-dom';
 import { Home, Calculator, Quote } from './pages';
 import { Layout } from './components';
@@ -18,12 +17,5 @@ const App = () => (
   </Routes>
 
 );
-// <div>
-//   <h1>Welcome Math Magicians</h1>
-//   <div className="wrapper">
-//     <Calculator />
-//     <DisplayQuote />
-//   </div>
-// </div>
 
 export default App;
