@@ -22,6 +22,7 @@ body {
 
 .author,
 .quote {
+  text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   font-style: italic;
@@ -35,4 +36,16 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
   text-align: center;
+}
+
+.container {
+  width: 85%;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: calc(0.1 * 100px);
+  box-shadow: 0 4px 14px 0 rgba(70, 70, 70, 0.38);
+}
+
+.welcome {
+  text-align: left;
 }

@@ -1,15 +1,21 @@
 import React from 'react';
-import './styles/App.css';
-import { Calculator, DisplayQuote } from './components';
+import { Routes, Route } from 'react-router-dom';
+import { Home, Quote, CalculatorPage } from './pages';
+import { Layout } from './components';
 
 const App = () => (
-  <div>
-    <h1>Welcome Math Magicians</h1>
-    <div className="wrapper">
-      <Calculator />
-      <DisplayQuote />
-    </div>
-  </div>
+  <Routes>
+
+    <Route path="/" element={<Layout />}>
+
+      <Route index element={<Home />} />
+      <Route path="CalculatorPage" element={<CalculatorPage />} />
+      <Route path="Quote" element={<Quote />} />
+
+    </Route>
+
+  </Routes>
+
 );
 
 export default App;
