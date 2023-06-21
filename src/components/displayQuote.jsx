@@ -42,7 +42,7 @@ const DisplayQuote = () => {
   }
 
   return (
-    <div>
+    <div className="container">
       {quote && quote.length > 0 ? (
         <>
           <p className="quote">{quote[0].quote}</p>

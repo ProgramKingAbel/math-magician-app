@@ -1,4 +1,7 @@
 .loader {
+  position: fixed;
+  inset: 0;
+  height: 100vh;
   z-index: 10;
   background: rgba(0, 0, 0, 0.7);
   display: flex;
