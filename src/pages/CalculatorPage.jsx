@@ -4,7 +4,7 @@ import '../styles/App.css';
 
 const CalculatorPage = () => (
   <div className="container">
-    <div className="content" style={{ display: 'flex', justifyContent: 'space-between' }}>
+    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
       <h2>Lets do some Math</h2>
       <Calculator />
     </div>
