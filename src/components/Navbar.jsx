@@ -2,25 +2,21 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const links = [
-    { path: '/', text: 'Home' },
-    { path: 'Calculator', text: 'Calculator' },
-    { path: 'Quote', text: 'Quote' },
+  { path: '/', text: 'Home' },
+  { path: 'Calculator', text: 'Calculator' },
+  { path: 'Quote', text: 'Quote' },
 ];
 
-const Navbar = () => {
-  return (
-      <nav className="navbar">
-          <ul>
-              {links.map((link) => {
-                  return (
-                      <li key={link.text}>
-                          <NavLink to={link.path}>{ link.text }</NavLink>
-                      </li>
-                  )
-              })}
-          </ul>
-    </nav>
-  )
-}
+const Navbar = () => (
+  <nav className="navbar">
+    <ul>
+      {links.map((link) => (
+        <li key={link.text}>
+          <NavLink to={link.path}>{ link.text }</NavLink>
+        </li>
+      ))}
+    </ul>
+  </nav>
+);
 
-export default Navbar
+export default Navbar;
