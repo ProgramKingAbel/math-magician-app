@@ -4,7 +4,7 @@ import '../styles/Navbar.css';
 
 const links = [
   { path: '/', text: 'Home' },
-  { path: 'Calculator', text: 'Calculator' },
+  { path: 'CalculatorPage', text: 'Calculator' },
   { path: 'Quote', text: 'Quote' },
 ];
 
