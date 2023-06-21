@@ -14,7 +14,6 @@
     font-size: 1.4rem;
     display: flex;
     list-style: none;
-    width: 20%;
-    justify-content: space-between;
+    gap: 2rem;
       
 }
