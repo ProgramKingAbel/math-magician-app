@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders "No Quote Found" when quote is null 1`] = `
+<div>
+  <div
+    class="loader"
+  >
+    <img
+      alt="loader"
+      class="loader-img"
+      src="loader.svg"
+    />
+    <p
+      class="loader-tag"
+    >
+      We are getting you a quote
+      <br />
+      Please wait...
+    </p>
+  </div>
+</div>
+`;
+
+exports[`renders error message when error is not null 1`] = `
+<div>
+  <div
+    class="loader"
+  >
+    <img
+      alt="loader"
+      class="loader-img"
+      src="loader.svg"
+    />
+    <p
+      class="loader-tag"
+    >
+      We are getting you a quote
+      <br />
+      Please wait...
+    </p>
+  </div>
+</div>
+`;
+
+exports[`renders loader when isLoading is true 1`] = `
+<div>
+  <div
+    class="loader"
+  >
+    <img
+      alt="loader"
+      class="loader-img"
+      src="loader.svg"
+    />
+    <p
+      class="loader-tag"
+    >
+      We are getting you a quote
+      <br />
+      Please wait...
+    </p>
+  </div>
+</div>
+`;
+
+exports[`renders quote and author when quote is not null 1`] = `
+<div>
+  <div
+    class="loader"
+  >
+    <img
+      alt="loader"
+      class="loader-img"
+      src="loader.svg"
+    />
+    <p
+      class="loader-tag"
+    >
+      We are getting you a quote
+      <br />
+      Please wait...
+    </p>
+  </div>
+</div>
+`;

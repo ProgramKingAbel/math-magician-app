@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display of the Calculator renders correctly 1`] = `
+Array [
+  <h2>
+    Your Math Magician Calculator
+  </h2>,
+  <input
+    disabled={true}
+    style={
+      Object {
+        "color": "white",
+      }
+    }
+    type="text"
+    value="100"
+  />,
+]
+`;

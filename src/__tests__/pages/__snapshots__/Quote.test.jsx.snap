@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote Quote Page is rendered and matches the snapshot 1`] = `
+<div>
+  <div
+    class="loader"
+  >
+    <img
+      alt="loader"
+      class="loader-img"
+      src="loader.svg"
+    />
+    <p
+      class="loader-tag"
+    >
+      We are getting you a quote
+      <br />
+      Please wait...
+    </p>
+  </div>
+</div>
+`;

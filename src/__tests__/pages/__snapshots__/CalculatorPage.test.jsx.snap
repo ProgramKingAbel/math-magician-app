@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalculatorPage Renders CalculatorPage and matches the snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      style="display: flex; justify-content: space-between;"
+    >
+      <h2>
+        Lets do some Math
+      </h2>
+      <div
+        class="calc-container"
+      >
+        <h2>
+          Your Math Magician Calculator
+        </h2>
+        <input
+          disabled=""
+          style="color: white;"
+          type="text"
+          value="0"
+        />
+        <div
+          class="all-btns"
+        >
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            AC
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            +/-
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            %
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            ÷
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            x
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            -
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            +
+          </button>
+          <button
+            class="grid-item span-2"
+            type="button"
+          >
+            0
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            .
+          </button>
+          <button
+            class="grid-item undefined"
+            type="button"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
