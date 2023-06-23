@@ -66,8 +66,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> - [Live Demo Link - Yet to be released]
-> - [Introduction to Project -Yet to be released]
+> - [Live Demo Link - Available on render](https://mathematician-abel.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
