@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Loader correctly 1`] = `
+<div
+  className="loader"
+>
+  <img
+    alt="loader"
+    className="loader-img"
+    src="loader.svg"
+  />
+  <p
+    className="loader-tag"
+  >
+    We are getting you a quote
+    <br />
+    Please wait...
+  </p>
+</div>
+`;

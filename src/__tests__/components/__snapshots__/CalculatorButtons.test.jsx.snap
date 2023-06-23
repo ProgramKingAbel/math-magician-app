@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CalculatorButtons component Correctly 1`] = `
+<div
+  className="all-btns"
+>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    AC
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    +/-
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    %
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    ÷
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    7
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    8
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    9
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    x
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    4
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    5
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    6
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    -
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    1
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    2
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    3
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    +
+  </button>
+  <button
+    className="grid-item span-2"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    0
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    .
+  </button>
+  <button
+    className="grid-item undefined"
+    onClick={[Function]}
+    style={Object {}}
+    type="button"
+  >
+    =
+  </button>
+</div>
+`;
