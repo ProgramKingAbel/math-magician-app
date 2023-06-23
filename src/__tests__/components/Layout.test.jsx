@@ -9,7 +9,7 @@ describe('Layout', () => {
       .create(
         <MemoryRouter>
           <Layout />
-        </MemoryRouter>
+        </MemoryRouter>,
       )
       .toJSON();
 

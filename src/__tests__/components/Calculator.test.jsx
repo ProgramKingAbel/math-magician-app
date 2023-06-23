@@ -28,4 +28,3 @@ describe('Calculator', () => {
     expect(displayElement).toHaveDisplayValue('6');
   });
 });
-
